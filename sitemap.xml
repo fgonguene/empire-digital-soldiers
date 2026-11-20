@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+  <url>
+    <loc>https://www.empire-digitalsoldiers.org/</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image><image:loc>https://www.empire-digitalsoldiers.org/assets/img/og-image.jpg</image:loc></image:image>
+    <video:video>
+      <video:thumbnail_loc>https://www.empire-digitalsoldiers.org/assets/img/og-image.jpg</video:thumbnail_loc>
+      <video:title>Empire Digital Soldiers — Trailer officiel</video:title>
+      <video:description>1981, c'est la dernière fois qu'un club camerounais a soulevé un trophée africain. Empire Digital Soldiers forme les métiers du marketing et de la communication du sport.</video:description>
+      <video:content_loc>https://www.empire-digitalsoldiers.org/assets/video/eds-trailer.mp4</video:content_loc>
+      <video:duration>195</video:duration>
+      <video:publication_date>2026-11-20</video:publication_date>
+    </video:video>
+  </url>
+</urlset>
