@@ -36,9 +36,6 @@
 <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
 <link rel="manifest" href="site.webmanifest">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap">
 <link rel="preload" as="image" href="assets/img/poster-trailer.webp" fetchpriority="high">
 
 <script type="application/ld+json">
@@ -115,6 +112,19 @@
 </script>
 
 <style>
+/* Polices auto-hébergées (perf. 22/11/2026) : plus aucun appel Google Fonts ; latin + latin-ext, graisses utilisées uniquement. */
+@font-face{font-family:'Anton';font-style:normal;font-weight:400;font-display:swap;src:url(assets/fonts/anton-400-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Anton';font-style:normal;font-weight:400;font-display:swap;src:url(assets/fonts/anton-400-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Inter';font-style:normal;font-weight:400;font-display:swap;src:url(assets/fonts/inter-400-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Inter';font-style:normal;font-weight:400;font-display:swap;src:url(assets/fonts/inter-400-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Inter';font-style:normal;font-weight:600;font-display:swap;src:url(assets/fonts/inter-600-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Inter';font-style:normal;font-weight:600;font-display:swap;src:url(assets/fonts/inter-600-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Inter';font-style:normal;font-weight:700;font-display:swap;src:url(assets/fonts/inter-700-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Inter';font-style:normal;font-weight:700;font-display:swap;src:url(assets/fonts/inter-700-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Inter';font-style:normal;font-weight:800;font-display:swap;src:url(assets/fonts/inter-800-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Inter';font-style:normal;font-weight:800;font-display:swap;src:url(assets/fonts/inter-800-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'JetBrains Mono';font-style:normal;font-weight:700;font-display:swap;src:url(assets/fonts/jetbrainsmono-700-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'JetBrains Mono';font-style:normal;font-weight:700;font-display:swap;src:url(assets/fonts/jetbrainsmono-700-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
 /* Layout idea: a classified broadcast dossier. Black hex-mesh field, gold viewfinder corners,
    one big Anton figure per chapter, mono "//" labels, blue-outlined pills. Single dark theme by design. */
 :root{
@@ -1022,9 +1032,10 @@ footer{border-top:1px solid var(--or-a25);padding:56px 0 calc(40px + env(safe-ar
   var d=document, root=d.documentElement; root.classList.add('js');
   var reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-  // boot sequence, once per session
+  // boot sequence, once per session — ignorée sur connexion lente (perf. 22/11/2026 : pas de délai d'affichage après un chargement lent)
+  var cn0=navigator.connection||{}, slowNet=cn0.saveData||/2g|3g/.test(cn0.effectiveType||'')||performance.now()>2500;
   try{
-    if(!reduce && !sessionStorage.getItem('eds-boot')){
+    if(!reduce && !slowNet && !sessionStorage.getItem('eds-boot')){
       sessionStorage.setItem('eds-boot','1');
       var b=d.createElement('div'); b.className='boot'; b.setAttribute('aria-hidden','true');
       b.innerHTML='<div><img src="assets/img/eds-insigne.webp" alt=""><span>EDS // Ouverture du dossier</span><i></i></div>';
@@ -1107,14 +1118,8 @@ footer{border-top:1px solid var(--or-a25);padding:56px 0 calc(40px + env(safe-ar
     else if(n>=s){li.classList.add('now');st.textContent='En cours'}
   });
 
-  // hero player: muted teaser loop on good connections, full trailer with sound on demand
+  // hero player: pas d'autoplay (perf. 22/11/2026) — l'affiche s'affiche, le visiteur lance la lecture ; trailer complet avec le son sur demande
   var v=d.getElementById('vid'), pl=d.getElementById('player'), btn=d.getElementById('playBtn'), src=v.querySelector('source');
-  var cn=navigator.connection||{}, light=cn.saveData||/2g|3g/.test(cn.effectiveType||'');
-  if(!light && !reduce){
-    src.src=src.dataset.src; v.load();
-    var vo=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){v.play().catch(function(){})}else if(v.muted){v.pause()}})},{threshold:.25});
-    vo.observe(v);
-  }
   btn.addEventListener('click',function(){
     v.pause(); v.loop=false; v.removeAttribute('src');
     src.src='assets/video/eds-trailer.mp4'; v.load(); v.muted=false; v.controls=true;
