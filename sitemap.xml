@@ -15,4 +15,10 @@
       <video:publication_date>2026-11-20</video:publication_date>
     </video:video>
   </url>
+  <url>
+    <loc>https://www.empire-digitalsoldiers.org/newsletter.html</loc>
+    <lastmod>2026-11-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>
